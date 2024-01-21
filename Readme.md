@@ -21,11 +21,13 @@ Use the WebdriverIO CLI to generate a configuration file:
 npx wdio config
 ```
 
+```plaintext
 Follow the prompts to configure your setup. Choose the options that suit your project. Since it updates every time. Here is mine:
+
 ? A project named "java_webdriverio_cucumber" was detected at "/home/ubuntu/Documents/Java_WebDriverIO_Cucumber", correct? Yes
 ? What type of testing would you like to do? E2E Testing - of Web or Mobile Applications
 ? Where is your automation backend located? On my local machine
-? Which environment you would like to automate? Web - web applications in the browser
+? Which environment would you like to automate? Web - web applications in the browser
 ? With which browser should we start? Firefox
 ? Which framework do you want to use? Cucumber (https://cucumber.io/)
 ? Do you want to use a compiler? No!
@@ -34,12 +36,14 @@ Follow the prompts to configure your setup. Choose the options that suit your pr
 ? What should be the location of your step definitions? /home/ubuntu/Documents/Java_WebDriverIO_Cucumber/features/step-definitions/steps.js
 ? Do you want to use page objects (https://martinfowler.com/bliki/PageObject.html)? No
 ? Which reporter do you want to use? spec
-? Do you want to add a plugin to your test setup? wait-for: utilities that provide functionalities to wait for certain conditions till a defined task is 
-complete.
+? Do you want to add a plugin to your test setup? wait-for: utilities that provide functionalities to wait for certain conditions till a defined task is complete.
    > https://www.npmjs.com/package/wdio-wait-for
 ? Do you want to add a service to your test setup? 
-? What is the base url? http://localhost:5000
+? What is the base URL? http://localhost:5000
 ? Do you want me to run `npm install` (Y/n) Y
+```
+
+Feel free to use this formatted text in your documentation or README.md file.
 
 ### 3. Install Cucumber
 
