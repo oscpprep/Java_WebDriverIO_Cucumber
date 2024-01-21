@@ -123,4 +123,5 @@ WebdriverIO will execute your tests using the specified Cucumber framework.
 
 ## Additional Resources
 The blog with users website is available at https://github.com/oscpprep/POM/tree/9867beef8b4b9748d0e102071d4b0a524fde1222/dockers_compressed_into_7zips
+
 Make sure to refer to the [WebdriverIO Documentation](https://webdriver.io/docs/gettingstarted.html) and [Cucumber Documentation](https://cucumber.io/docs/guides/10-minute-tutorial/) for more detailed information and options.
